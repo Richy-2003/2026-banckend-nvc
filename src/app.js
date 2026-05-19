@@ -13,6 +13,8 @@ function callbackDaRaiz( request, reponse ){
 app.get("/", callbackDaRaiz)
 
 app.get("/users", userController.getAllUsers)
+  
+app.get("/users/:id", userController.getUserById)
 
 app.post("/users", userController.createUser)
 
