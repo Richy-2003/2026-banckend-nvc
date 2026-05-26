@@ -10,7 +10,7 @@ collection:
   - url: http://localhost:3000/
     name: Teste API
     meta:
-      id: req_0d8ef32157f74a34b6f14d0f916bbb08
+      id: req_372730aa78034802afc518c28d312985
       created: 1778539597186
       modified: 1778540030637
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de usuarios
     meta:
-      id: req_b95a31c246544700b56ac6cc75bfa9b2
+      id: req_7b2153b4199a4ce8a13dc45829424b1d
       created: 1778540142726
       modified: 1778540191604
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar usuario
     meta:
-      id: req_38041ab8988c49dda4a43123ed40277d
+      id: req_222f47adc39d4cea8293df5414deedbd
       created: 1778540814639
       modified: 1778541553295
       isPrivate: false
@@ -87,9 +87,9 @@ collection:
   - url: http://localhost:3000/users/1
     name: Busca de usuarios por id
     meta:
-      id: req_2645e5a243c8459eac60b5531ae644d5
+      id: req_450818da6656459cb543e7cf81cee6e8
       created: 1779150313910
-      modified: 1779152950295
+      modified: 1779754359004
       isPrivate: false
       description: ""
       sortKey: -1778539597111
@@ -107,16 +107,70 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:3000/users/14
+    name: atualizar usuario
+    meta:
+      id: req_50f838995e1642e5bdbd50631ff50417
+      created: 1779754762211
+      modified: 1779756414557
+      isPrivate: false
+      description: ""
+      sortKey: -1778539597036
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "jose"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/users/1
+    name: deletar usuario
+    meta:
+      id: req_632a321fa2024d0092301be21c7a2b3f
+      created: 1779757903776
+      modified: 1779757933400
+      isPrivate: false
+      description: ""
+      sortKey: -1778539597098.5
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779142623251
-    modified: 1779142623251
+    created: 1779747819461
+    modified: 1779747819461
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779142623245
-    modified: 1779142623245
+    created: 1779747819455
+    modified: 1779747819455
     isPrivate: false
