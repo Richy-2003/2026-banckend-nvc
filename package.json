@@ -1,20 +1,20 @@
 {
-  "name": "2026-banckend-nvc",
+  "name": "2026-1sem-ds2n-backend-mvc",
   "version": "1.0.0",
   "description": "projeto para aprender api com mvc",
   "keywords": [
     "mvc"
   ],
-  "homepage": "https://github.com/Richy-2003/2026-banckend-nvc#readme",
+  "homepage": "https://github.com/Joao-Meyer/2026-1sem-ds2n-backend-mvc#readme",
   "bugs": {
-    "url": "https://github.com/Richy-2003/2026-banckend-nvc/issues"
+    "url": "https://github.com/Joao-Meyer/2026-1sem-ds2n-backend-mvc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Richy-2003/2026-banckend-nvc.git"
+    "url": "git+https://github.com/Joao-Meyer/2026-1sem-ds2n-backend-mvc.git"
   },
   "license": "ISC",
-  "author": "Richy",
+  "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {

@@ -1,45 +1,41 @@
-const { updateUser } = require("../controllers/userController")
-const userList = require("../data/users")
+const usersList = require("../data/users")
 
 const findAll = () => {
-    return userList
+    return usersList
 }
 
 const create = (user) => {
-    userList.push(user)
+    usersList.push(user)
 
     return user
 }
 
 const findById = (id) => {
-        return userList.find( user => user.id ===id)
+    return usersList.find( user => user.id === id )
 }
 
 const update = (id, data) => {
-    const user = userList.find ( user => user.id === id)
+    const user = usersList.find( user => user.id === id )
 
     if (!user) return null
 
-    if (data.name){
+    if(data.name){
         user.name = data.name
     }
 
-
-
-    return user    
+    return user
 }
 
 const remove = (id) => {
-    const index = userList.findIndex( user => user.id === id)
+    const index = usersList.findIndex( user => user.id === id )
 
     if (index === -1) return null
 
-    const deleted = users[index]
+    const deletedUser = usersList[index]
 
-    user.splice(index, 1)
+    usersList.splice(index, 1)
 
-    return deleted
-    
+    return deletedUser
 }
 
 module.exports = {

@@ -10,12 +10,12 @@ collection:
   - url: http://localhost:3000/
     name: Teste API
     meta:
-      id: req_372730aa78034802afc518c28d312985
-      created: 1778539597186
-      modified: 1778540030637
+      id: req_b59f847cb164433abec1f7ef01d9f3ca
+      created: 1778539615737
+      modified: 1778540019959
       isPrivate: false
       description: ""
-      sortKey: -1778539597186
+      sortKey: -1778539615737
     method: GET
     headers:
       - name: User-Agent
@@ -31,14 +31,14 @@ collection:
         store: true
       rebuildPath: true
   - url: http://localhost:3000/users
-    name: Listagem de usuarios
+    name: Listagem usuários
     meta:
-      id: req_7b2153b4199a4ce8a13dc45829424b1d
-      created: 1778540142726
-      modified: 1778540191604
+      id: req_a920baf623334389a442cd052a380c48
+      created: 1778540138943
+      modified: 1779757337666
       isPrivate: false
       description: ""
-      sortKey: -1778539597136
+      sortKey: -1778539615687
     method: GET
     headers:
       - name: User-Agent
@@ -54,14 +54,14 @@ collection:
         store: true
       rebuildPath: true
   - url: http://localhost:3000/users
-    name: Criar usuario
+    name: Criar usuário
     meta:
-      id: req_222f47adc39d4cea8293df5414deedbd
-      created: 1778540814639
-      modified: 1778541553295
+      id: req_098acdd21b634303b74890ca2179b216
+      created: 1778540814093
+      modified: 1778541512408
       isPrivate: false
       description: ""
-      sortKey: -1778539597086
+      sortKey: -1778539615637
     method: POST
     body:
       mimeType: application/json
@@ -85,14 +85,14 @@ collection:
         store: true
       rebuildPath: true
   - url: http://localhost:3000/users/1
-    name: Busca de usuarios por id
+    name: Busca usuário por ID
     meta:
-      id: req_450818da6656459cb543e7cf81cee6e8
-      created: 1779150313910
-      modified: 1779754359004
+      id: req_0b209c6ad48b45fdbf94d6e805b177ef
+      created: 1779150046635
+      modified: 1779750793930
       isPrivate: false
       description: ""
-      sortKey: -1778539597111
+      sortKey: -1778539615662
     method: GET
     headers:
       - name: User-Agent
@@ -107,21 +107,21 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:3000/users/14
-    name: atualizar usuario
+  - url: http://localhost:3000/users/1
+    name: Atualizar usuário
     meta:
-      id: req_50f838995e1642e5bdbd50631ff50417
-      created: 1779754762211
-      modified: 1779756414557
+      id: req_ade109b3cba74f2281da636190e1514f
+      created: 1779750713599
+      modified: 1779750768564
       isPrivate: false
       description: ""
-      sortKey: -1778539597036
+      sortKey: -1778539615587
     method: PUT
     body:
       mimeType: application/json
       text: |-
         {
-        	"name": "jose"
+        	"name": "Manoel"
         }
     headers:
       - name: Content-Type
@@ -139,14 +139,14 @@ collection:
         store: true
       rebuildPath: true
   - url: http://localhost:3000/users/1
-    name: deletar usuario
+    name: Deletar usuário
     meta:
-      id: req_632a321fa2024d0092301be21c7a2b3f
-      created: 1779757903776
-      modified: 1779757933400
+      id: req_4f5653fddc7945b8bf666b5f57db945b
+      created: 1779757305899
+      modified: 1779757318591
       isPrivate: false
       description: ""
-      sortKey: -1778539597098.5
+      sortKey: -1778539615487
     method: DELETE
     headers:
       - name: User-Agent
@@ -165,12 +165,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747819461
-    modified: 1779747819461
+    created: 1779747744315
+    modified: 1779747744315
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747819455
-    modified: 1779747819455
+    created: 1779747744312
+    modified: 1779747744312
     isPrivate: false
